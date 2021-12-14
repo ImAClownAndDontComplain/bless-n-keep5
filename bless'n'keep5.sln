@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functions", "functions\func
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "type casting", "type casting\type casting.vcxproj", "{F9F68202-3A95-443B-810D-5FF7E6CCE414}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual destructor", "virtual destructor\virtual destructor.vcxproj", "{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x64.Build.0 = Release|x64
 		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x86.ActiveCfg = Release|Win32
 		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x86.Build.0 = Release|Win32
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Debug|x64.ActiveCfg = Debug|x64
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Debug|x64.Build.0 = Debug|x64
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Debug|x86.ActiveCfg = Debug|Win32
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Debug|x86.Build.0 = Debug|Win32
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Release|x64.ActiveCfg = Release|x64
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Release|x64.Build.0 = Release|x64
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Release|x86.ActiveCfg = Release|Win32
+		{711C441A-A8E3-4152-B5DD-9CCDC7A4F3A0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
