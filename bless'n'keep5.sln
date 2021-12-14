@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bless'n'keep5", "bless'n'ke
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functions", "functions\functions.vcxproj", "{2C3252C9-9EB7-4EA4-BD9B-BD4AE8876A6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "type casting", "type casting\type casting.vcxproj", "{F9F68202-3A95-443B-810D-5FF7E6CCE414}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{2C3252C9-9EB7-4EA4-BD9B-BD4AE8876A6C}.Release|x64.Build.0 = Release|x64
 		{2C3252C9-9EB7-4EA4-BD9B-BD4AE8876A6C}.Release|x86.ActiveCfg = Release|Win32
 		{2C3252C9-9EB7-4EA4-BD9B-BD4AE8876A6C}.Release|x86.Build.0 = Release|Win32
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Debug|x64.ActiveCfg = Debug|x64
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Debug|x64.Build.0 = Debug|x64
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Debug|x86.Build.0 = Debug|Win32
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x64.ActiveCfg = Release|x64
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x64.Build.0 = Release|x64
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x86.ActiveCfg = Release|Win32
+		{F9F68202-3A95-443B-810D-5FF7E6CCE414}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
