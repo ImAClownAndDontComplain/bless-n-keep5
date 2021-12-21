@@ -44,6 +44,7 @@ public:
         printf("Desc1\n");
     }
 };
+
 class Desc2 : public Base {
 public:
     void show2() override {
@@ -69,7 +70,7 @@ int main()
     Desc2* objd2 = new Desc2();
     printf("\n");
 
-    objb->printclass1();  //both times Base.printclass1()
+    objb->printclass1();  //both times Base.printclass1() is called;
     obj1->printclass1();
     printf("\n");
 
@@ -85,16 +86,23 @@ int main()
     objd2->iam2();        //Base.iam2(), Desc2.printslass2();
     printf("\n");
 
+    delete objb;
+    delete obj1;
+    delete obj2;
+    delete objd1;
+    delete objd2;
+    printf("\n");
+
     Desc1 d1 = Desc1();
-    d1.show1();            //Desc1.show1() is called
-    d1.show2();            //Base.show2()
+    d1.show1();            //Desc1.show1() is called;
+    d1.show2();            //Base.show2();
     printf("\n");
 
     Base* d2 = new Desc2();
-    d2->show1();              //Base.show1()
-    d2->show2();              //Desc2.show2()
+    d2->show1();              //Base.show1();
+    d2->show2();              //Desc2.show2();
 
-    delete d2;                //~Base()
+    delete d2;                //~Base();
     printf("\n");
     return 0;
 }

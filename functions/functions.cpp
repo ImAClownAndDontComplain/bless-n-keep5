@@ -55,7 +55,7 @@ Base* bf2() {
 	return b;
 }
 Base& bf3() {
-	printf("bf2: returns a Base class object reference\n");
+	printf("bf3: returns a Base class object reference\n");
 	Base b;
 	return b;
 }
@@ -83,10 +83,14 @@ int main() {
 	f3(*d);
 	printf("\n");
 
-	bf1();
-	bf2();
-	bf3();
+	Base f1;
+	f1 = bf1();
+	Base* f2 = bf2();
+	Base f3 = bf3();
 	printf("\n");
 	delete b;
+	delete d;
+	delete f2;
+	printf("\n");
 	return 0;
 }
